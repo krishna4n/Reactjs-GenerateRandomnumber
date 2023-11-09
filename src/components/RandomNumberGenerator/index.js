@@ -6,7 +6,7 @@ class Random extends Component {
 
   getRandomNumber = () =>
     this.setState({
-      number: Math.ceil(Math.random() * 101),
+      number: Math.ceil(Math.random() * 100),
     })
 
   render() {
